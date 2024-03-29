@@ -41,7 +41,7 @@ a {
 }
 
 .top__info {
-  width: 604px;
+  max-width: 604px;
 }
 
 
@@ -79,6 +79,14 @@ a {
   margin-top: 50px;
   display: flex;
   gap: 20px;
+}
+.top__pic {
+  max-width: 414px;
+  max-height: 415px;
+}
+
+.top__pic img {
+  width: 100%;
 }
 
 .top__logos {
@@ -422,5 +430,155 @@ a {
     margin-left: 100px;
   }
 
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .center {
+    padding-left: calc(50% - 172px);
+    padding-right: calc(50% - 172px);
+  }
+
+  .header {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .header__link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .top {
+    padding-bottom: 108px;
+  }
+
+  .top__info {
+    max-width: 343px;
+    max-height: 496px;
+
+  }
+
+  .top__content {
+    margin-top: 64px;
+    margin-bottom: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+  }
+  .subtitle {
+    font-size: 14px;
+    text-align: center;
+    width: 343px
+  }
+
+  .title {
+    font-size: 28px;
+    text-align: center;
+  }
+  .text {
+    width: 343px;
+    text-align: center;
+  }
+
+  .top__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 39px;
+    gap: 24px;
+  }
+  .top__pic {
+    max-width: 343px;
+    max-height: 344px;
+  }
+
+  .apply__inner {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .apply__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .apply__title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .apply__text {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .features {
+    padding-bottom: 96px;
+  }
+
+  .about {
+    padding-bottom: 96px;
+  }
+
+  .about__inner {
+    gap: 32px;
+  }
+
+  .about__title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .about__us {
+    gap: 16px;
+    text-align: center;
+
+  }
+  /*.item {*/
+  /*  max-width: 343px;*/
+  /*}*/
+
+  .about__img img {
+    width: 100%;
+    max-width: 342px;
+  }
+
+  .footer {
+    padding: 113px 3% 64px;
+  }
+
+  .footer__inner {
+    flex-wrap: wrap;
+    gap: 32px;
+    flex-direction: column;
+  }
+
+
+  .footer__about {
+    order: 1;
+    margin-left: 0;
+  }
+  .footer__information {
+    order: 2;
+  }
+  .footer__about-links {
+    order: 3;
+    text-align: center;
+  }
+
+  .footer__title {
+    text-align: center;
+  }
+
+  .footer__social-links {
+    justify-content: center;
+  }
 
 }
