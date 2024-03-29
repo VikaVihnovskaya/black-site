@@ -301,3 +301,76 @@ a {
 .about__img img {
   width: 100%;
 }
+
+.footer {
+  background-color: rgb(9, 14, 23);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 48px 3% 51px;
+}
+
+.footer__inner {
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+  line-height: normal;
+  gap: 130px;
+}
+
+.footer__title {
+  font-size: 16px;
+  line-height: normal;
+  margin-bottom: 33px;
+}
+
+.footer__information-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.information__link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: normal;
+  color: #fff;
+}
+
+.footer__information-item img {
+  margin-right: 9px;
+}
+
+.footer__about-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: normal;
+  opacity: 0.6;
+  max-width: 261px;
+}
+
+.footer__about-site {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer__about-link-wrapper {
+  margin-bottom: 24px;
+}
+
+.footer__social-links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer__social-links img {
+  opacity: 0.6;
+}
+
