@@ -283,10 +283,6 @@ a {
   margin-bottom: 40px;
   max-width: 567px;
 }
-.reviews__text {
-  text-align: left;
-  font-size: 16px;
-}
 
 .about__us {
   display: flex;
@@ -374,3 +370,57 @@ a {
   opacity: 0.6;
 }
 
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 376px);
+    padding-right: calc(50% - 376px);
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+  .top__logos {
+    gap: 32px;
+    max-width: 650px;
+    margin: auto;
+  }
+
+  .top {
+    padding-bottom: 120px;
+  }
+
+  .content {
+    margin: 0 auto;
+  }
+
+  .features__upper-block {
+    gap: 32px;
+  }
+
+  .features__down-block {
+    display: none;
+  }
+
+  .about__inner {
+    gap: 64px;
+  }
+
+  .footer__inner {
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+
+  .footer__about-links {
+    order: 1;
+  }
+
+  .footer__about {
+    margin-left: 100px;
+  }
+
+
+}
