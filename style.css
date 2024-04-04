@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  max-width: 100vw;
+}
+
 body {
   background-color: #020a18;
   font-family: sans-serif;
